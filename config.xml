@@ -39,9 +39,9 @@
  
 <!--NEW -->
 <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-<gap:plugin name="org.apache.cordova.device" source="npm"/>
+
 <gap:plugin name="org.apache.cordova.camera" source="npm"/>
-<gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
+
 <gap:plugin name="org.apache.cordova.file" source="npm"/>
 <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
 <!--<gap:plugin name="org.apache.cordova.geolocation" source="npm"/> -->

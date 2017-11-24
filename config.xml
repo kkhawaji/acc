@@ -1,3 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><deviceInfo xmlns="http://ns.adobe.com/adept"><deviceName>Lenovo A328</deviceName><deviceType>mobile</deviceType><version name="hobbes" value="9.2.35142" /><fingerprint>SzhUWjZodXF1MzVvSGcxL2M1RVg=</fingerprint></deviceInfo>
+
+
 <?xml version   ="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
@@ -22,7 +25,7 @@
     <icon src="images/icon2.png" width="256" height="256" />
    
  
-<preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="phonegap-version" value="cli-6.5.0" />
                        
      <!--   
   <preference name="phonegap-version" value="cli-5.1.1" />
@@ -36,39 +39,7 @@
  
 <access origin="*" />
  
- 
-<!--NEW -->
-<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
 
-<gap:plugin name="org.apache.cordova.camera" source="npm"/>
-
-<gap:plugin name="org.apache.cordova.file" source="npm"/>
-<gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
-<!--<gap:plugin name="org.apache.cordova.geolocation" source="npm"/> -->
-<gap:plugin name="org.apache.cordova.globalization" source="npm" />
- 
- 
-   
-<plugin name="cordova-plugin-geolocation" source="npm" />
- 
- 
- 
- 
-<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
-<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
-<gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
-<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
-<!--<gap:plugin name="org.apache.cordova.core.geolocation" />-->
-<gap:plugin name="org.apache.cordova.media" source="npm"/>
-<gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
- 
- 
- 
- 
- 
- 
- 
- 
    
     <preference name="orientation" value="portrait" />
     <preference name="android-minSdkVersion" value="9" />
@@ -106,7 +77,7 @@
   <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
   <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
  
- 
+
  
  
  

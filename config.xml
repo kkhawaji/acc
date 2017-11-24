@@ -1,5 +1,17 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.example.app" version="4.7.1" versionCode="7950" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>PhoneGap Example</name>
+
+  <description>
+      An example for phonegap build docs.
+  </description>
     <name>App Name</name>
     <description>
        App Desc
@@ -52,14 +64,7 @@
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/img/splash/android/drawable-xhdpi/screen.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xxhdpi" src="www/img/splash/android/drawable-xxhdpi/screen.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xxxhdpi" src="www/img/splash/android/drawable-xxxhdpi/screen.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/img/splash/ios/Default.png" width="320" />
-    <gap:splash gap:platform="ios" height="960" src="www/img/splash/ios/640x960.png" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="www/img/splash/ios/640x1136.png" width="640" />
-    <gap:splash gap:platform="ios" height="1334" src="www/img/splash/ios/750x1334.png" width="750" />
-    <gap:splash gap:platform="ios" height="1024" src="www/img/splash/ios/768x1024.png" width="768" />
-    <gap:splash gap:platform="ios" height="2208" src="www/img/splash/ios/1242x2208.png" width="1242" />
-    <gap:splash gap:platform="ios" height="2008" src="www/img/splash/ios/1536x2008.png" width="1536" />
-    <gap:splash gap:platform="ios" height="2048" src="www/img/splash/ios/1536x2048.png" width="1536" />
+   
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="ios-package" value="CDVSplashScreen" />
